@@ -1,0 +1,93 @@
+
+activity,generating data,Sep-29-02:58:58PM
+params,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-02:58:58PM
+activity,Optimizing bandwith,Sep-29-02:58:58PM
+activity,Clustering,Sep-29-02:58:58PM
+params,bandwidth=1.0572642683  bin_seeding=True ,Sep-29-02:58:58PM
+activity,generating data,Sep-29-03:00:17PM
+params,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:00:17PM
+activity,Optimizing bandwith,Sep-29-03:00:17PM
+activity,Clustering,Sep-29-03:00:17PM
+params,bandwidth=1.00811281566  bin_seeding=True ,Sep-29-03:00:17PM
+activity,visualization,Sep-29-03:00:18PM
+activity,begin,Sep-29-03:01:04PM
+activity,generating data,Sep-29-03:01:04PM
+params,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:01:04PM
+activity,Optimizing bandwith,Sep-29-03:01:04PM
+activity,Clustering,Sep-29-03:01:05PM
+params,bandwidth=1.02225954546  bin_seeding=True ,Sep-29-03:01:05PM
+activity,visualization,Sep-29-03:01:05PM
+activity,end,Sep-29-03:18:31PM
+activity,Start,Sep-29-03:19:04PM
+activity,generating data,Sep-29-03:19:04PM
+params,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:19:04PM
+activity,Optimizing bandwith,Sep-29-03:19:04PM
+activity,Clustering,Sep-29-03:19:05PM
+params,bandwidth=1.02537292827  bin_seeding=True ,Sep-29-03:19:05PM
+activity,visualization,Sep-29-03:19:05PM
+activity,End,Sep-29-03:19:07PM
+activity,Start,Sep-29-03:20:00PM
+activity,generating data,Sep-29-03:20:00PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:20:00PM
+activity,Optimizing bandwith,Sep-29-03:20:00PM
+activity,Clustering,Sep-29-03:20:00PM
+parameters,bandwidth=1.02301450021  bin_seeding=True ,Sep-29-03:20:00PM
+activity,visualization,Sep-29-03:20:01PM
+activity,End,Sep-29-03:20:03PM
+activity,Start,Sep-29-03:21:59PM
+activity,generating data,Sep-29-03:21:59PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:21:59PM
+activity,Optimizing bandwith,Sep-29-03:21:59PM
+activity,Clustering,Sep-29-03:21:59PM
+parameters,bandwidth=1.02447219822  bin_seeding=True ,Sep-29-03:21:59PM
+activity,Start,Sep-29-03:22:12PM
+activity,generating data,Sep-29-03:22:12PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:22:12PM
+activity,Optimizing bandwith,Sep-29-03:22:12PM
+activity,Clustering,Sep-29-03:22:12PM
+parameters,bandwidth=1.04587849702  bin_seeding=True ,Sep-29-03:22:12PM
+activity,Start,Sep-29-03:22:20PM
+activity,generating data,Sep-29-03:22:20PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:22:20PM
+activity,Optimizing bandwith,Sep-29-03:22:20PM
+activity,Clustering,Sep-29-03:22:20PM
+parameters,bandwidth=1.0042901023  bin_seeding=True ,Sep-29-03:22:20PM
+summary,3,Sep-29-03:22:20PM
+activity,visualization,Sep-29-03:22:21PM
+activity,End,Sep-29-03:22:23PM
+activity,Start,Sep-29-03:22:59PM
+activity,generating data,Sep-29-03:22:59PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:22:59PM
+activity,Optimizing bandwith,Sep-29-03:22:59PM
+activity,Clustering,Sep-29-03:22:59PM
+parameters,bandwidth=1.03204922037  bin_seeding=True ,Sep-29-03:22:59PM
+summary,3,Sep-29-03:22:59PM
+activity,visualization,Sep-29-03:23:00PM
+activity,End,Sep-29-03:23:02PM
+activity,Start,Sep-29-03:28:08PM
+activity,generating data,Sep-29-03:28:08PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:28:08PM
+activity,Optimizing bandwith,Sep-29-03:28:08PM
+activity,Clustering,Sep-29-03:28:08PM
+parameters,bandwidth=1.00287802901  bin_seeding=True ,Sep-29-03:28:08PM
+summary,3 Number of estimated clusters,Sep-29-03:28:08PM
+activity,visualization,Sep-29-03:28:08PM
+activity,End,Sep-29-03:28:13PM
+activity,Start,Sep-29-03:29:48PM
+activity,generating data,Sep-29-03:29:48PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]] n_samples=10000 cluster_std=0.6 ,Sep-29-03:29:48PM
+activity,Optimizing bandwith,Sep-29-03:29:48PM
+activity,Clustering,Sep-29-03:29:49PM
+parameters,bandwidth=1.02244893039  bin_seeding=True ,Sep-29-03:29:49PM
+summary,3 Number of estimated clusters,Sep-29-03:29:49PM
+activity,visualization,Sep-29-03:29:49PM
+activity,End,Sep-29-03:29:51PM
+activity,Start,Sep-29-03:30:57PM
+activity,generating data,Sep-29-03:30:57PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]]	n_samples=10000	cluster_std=0.6	,Sep-29-03:30:57PM
+activity,Optimizing bandwith,Sep-29-03:30:57PM
+activity,Clustering,Sep-29-03:30:57PM
+parameters,bandwidth=1.04322926909	 bin_seeding=True	,Sep-29-03:30:57PM
+summary,3 Number of estimated clusters,Sep-29-03:30:57PM
+activity,visualization,Sep-29-03:30:57PM
+activity,End,Sep-29-03:30:59PM
