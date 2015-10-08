@@ -12,16 +12,13 @@ class instrumento:
     
     This class helps to document easily a coding process. This class is specifically 
     aimed at Machine learning/Data mining and data analysis tasks. Here is how you can use it
-    
-    
-    
-    
-     
     """
     
     
     def __init__(self,**kwargs):
-        printout=False
+        self.printout=False
+        self.activeLog="/Users/ingenia/git/instrumento/activeLog.txt"
+        
         """
         arguments are
         path : Path to where the log is going to be stored
@@ -31,13 +28,39 @@ class instrumento:
         if it exists it will append to the current content
         """
         
-        self.path=kwargs['path']
-        self.logname=kwargs['logname']
-        self.filename=self.path+'/'+self.logname
-        self.printout=kwargs['printout']
-#         self.dateCreated=os.
+#         if "path" not in kwargs.keys() or "logname" not in kwargs.keys():
+#             print("either path ")
+#             return
         
-#             file=open()
+        if "path" in kwargs.keys() and "logname" in kwargs.keys() :
+            self.path=kwargs['path']
+            self.logname=kwargs['logname']
+            file=open(self.activeLog,"w")
+            file.write("%s \n"%(self.path))
+            file.write("%s"%(self.logname))
+            file.close()
+        else:
+            try:
+                file=open(self.activeLog,"r")
+#                 print(file.readline())
+#                 print(file.readline())
+                temp1=file.readline()
+                temp2=file.readline()
+                file.close()
+            except:
+                raise NameError("Could not read current activeLog")
+            self.logname=temp2.strip()
+            self.path=temp1.strip()
+            print(temp1,temp2)
+                   
+        self.filename=self.path+'/'+self.logname
+        if 'printout' in kwargs.keys():
+            self.printout=kwargs['printout']
+
+
+    def printlog(self,text):
+        if self.printout:
+            print(text)
             
     def act(self,activity):
             """
@@ -49,7 +72,7 @@ class instrumento:
             text="\n"+"activity,"+activity+","+dt.datetime.now().strftime("%b-%d-%I:%M:%S%p")
             file.write(text)
             file.close()
-            print(text)
+            self.printlog(text)
             
     def sum(self,summary, description=""):
             """
@@ -63,7 +86,7 @@ class instrumento:
             text="\n"+"summary,"+str(summary)+' '+description+","+dt.datetime.now().strftime("%b-%d-%I:%M:%S%p")
             file.write(text)
             file.close()
-            print(text)
+            self.printlog(text)
             
     def params(self,*args):
             """
@@ -90,7 +113,7 @@ class instrumento:
             text="\n"+"parameters,"+parameters+","+dt.datetime.now().strftime("%b-%d-%I:%M:%S%p")
             file.write(text)
             file.close()
-            print(text)
+            self.printlog(text)
             
             
 # TODO
@@ -108,7 +131,8 @@ if __name__=="__main__":
     from sklearn.cluster import MeanShift, estimate_bandwidth
     from sklearn.datasets.samples_generator import make_blobs
     
-    ins=instrumento(path=".",logname="meanShift-test.txt",printout=True)
+#     ins=instrumento(path=".",logname="meanShift-test.txt",printout=True)
+    ins=instrumento()
     
     ins.act("Start")
     

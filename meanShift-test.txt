@@ -91,3 +91,21 @@ parameters,bandwidth=1.04322926909	 bin_seeding=True	,Sep-29-03:30:57PM
 summary,3 Number of estimated clusters,Sep-29-03:30:57PM
 activity,visualization,Sep-29-03:30:57PM
 activity,End,Sep-29-03:30:59PM
+activity,Start,Oct-08-03:39:06PM
+activity,generating data,Oct-08-03:39:06PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]]	n_samples=10000	cluster_std=0.6	,Oct-08-03:39:06PM
+activity,Start,Oct-08-07:14:01PM
+activity,generating data,Oct-08-07:14:01PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]]	n_samples=10000	cluster_std=0.6	,Oct-08-07:14:01PM
+activity,Start,Oct-08-07:15:09PM
+activity,generating data,Oct-08-07:15:09PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]]	n_samples=10000	cluster_std=0.6	,Oct-08-07:15:09PM
+activity,Start,Oct-08-07:16:02PM
+activity,generating data,Oct-08-07:16:02PM
+parameters,centers=[[1, 1], [-1, -1], [1, -1]]	n_samples=10000	cluster_std=0.6	,Oct-08-07:16:02PM
+activity,Optimizing bandwith,Oct-08-07:16:02PM
+activity,Clustering,Oct-08-07:16:02PM
+parameters,bandwidth=1.03860115436	 bin_seeding=True	,Oct-08-07:16:02PM
+summary,3 Number of estimated clusters,Oct-08-07:16:03PM
+activity,visualization,Oct-08-07:16:03PM
+activity,End,Oct-08-07:16:07PM
